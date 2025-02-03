@@ -28,7 +28,7 @@ struct NinjaTextFieldStyle: TextFieldStyle {
 struct NinjaTextInput: View {
   @Binding var value: String
   var font: Font = .title3
-  var bg: Color = .backgroundDefault
+  var bg: Color = Color(red: 0, green: 0, blue: 0, opacity: 0)
   var fg: Color = .foregroundDefault
   var placeholder: String = "Type"
   

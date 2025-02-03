@@ -17,7 +17,7 @@ struct NinjaSwitch: View {
     } label: {
       RoundedRectangle(cornerRadius: 20)
         .frame(width: 50, height: 25)
-        .foregroundStyle(.backgroundDefault)
+        .foregroundStyle(Color(red: 0, green: 0, blue: 0, opacity: 0))
         .overlay(
           ZStack {
             RoundedRectangle(cornerRadius: 20)

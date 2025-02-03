@@ -18,7 +18,7 @@ struct NinjaRadioButton: View {
       }
     } label: {
       Circle()
-        .foregroundStyle(.backgroundDefault)
+        .foregroundStyle(Color(red: 0, green: 0, blue: 0, opacity: 0))
         .frame(width: 25, height: 25)
         .overlay(
           ZStack {
